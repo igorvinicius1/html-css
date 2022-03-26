@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(92, 89, 89);
+            padding: 3px;
+            box-shadow: -3px -2px 1px black;/*  AULA 27 M2 DO GUANABARA (AULA DE SOMBRAS)*/
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;/*sublinha qaundo passo o mouse por cima do link*/
+            padding: 3px;/* quando tu passar o mouse ele vai dar uma distanciado do outro link por 3 px*/
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 20px 10px 20px;/* FORMA RESUMIDA --> border-radius: 10px 20px */
+            box-shadow: 3px -3px 2px 0px #464343;
+        }
+
+        article {
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: rgb(131, 127, 127);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px; /* DA UMA ALARGADA NO "BLOQUINHO ONDE SE ENCONTRA O PARAGRAFO" */
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header><!--CABEÇALHO-->
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main><!--CONTEÚDO PRINCIPAL-->
+        <section id="assuntos">
+            <p>Esportes Politicas e Tecnologias</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam necessitatibus minima autem sint illum aliquam id unde ullam. Atque dolor quisquam inventore recusandae excepturi quasi! Incidunt alias quibusdam aliquam? Atque?</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer><!--RODA PÉ-->
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+</body>
+</html>
