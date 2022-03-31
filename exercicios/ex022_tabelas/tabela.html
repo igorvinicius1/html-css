@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira tabela no HTML</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 400px; /* distancia entre cd celula */
+            border-collapse: collapse;/*  as linhas da célula se mesclam como se fosse uma planilha do excel*/
+        }
+
+        tr {
+            background-color: grey;
+        }
+
+        td {
+            border: 1px solid black;/*  controno de cd xéula formando um "uadradinho" */
+            padding: 8px;/* o conteudo se distancia da borda  dando uma centralizada de 8px a cima a baixo direita e esquerda*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+
+    <!--
+        HIERARQUIA DE TABELAS (simples)
+        Table = tabela
+            TABLE ROW = linha de tabela
+                TABLE HEADER = cabeçalho de tabela
+                TABLE DATA = dado da tabela
+    -->
+
+    <table>
+        <tr><!--primeira linha-->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+
+        <tr><!--segunda linha-->
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+
+        <tr><!--terceira linha-->
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+
+        <tr><!--quarta linha-->
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+</body>
+</html>
