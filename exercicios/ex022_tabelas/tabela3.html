@@ -22,8 +22,18 @@
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(68, 66, 66);
             color: white;
+        }
+
+        thead > tr > th {/* permite que o header (cbeçalho) da tabela acompanhe a rolagem da pagina */
+            position: sticky;
+            top: -1px;/* pode mudar de acordo com as necesidades da tabela*/
+            background-color: rgb(68, 66, 66);
+        }
+
+        tbody > tr:nth-child(2n) {/* PSEUDO CLASSE para fazer zebras na tabela video 31 M3 guanabara */
+            background-color: lightgray;
         }
 
         .num {
@@ -202,5 +212,8 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quibusdam aperiam enim hic alias amet unde reiciendis accusantium quam, consequuntur esse nam id autem architecto quae! Provident asperiores magnam quae?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quibusdam aperiam enim hic alias amet unde reiciendis accusantium quam, consequuntur esse nam id autem architecto quae! Provident asperiores magnam quae?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quibusdam aperiam enim hic alias amet unde reiciendis accusantium quam, consequuntur esse nam id autem architecto quae! Provident asperiores magnam quae?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quibusdam aperiam enim hic alias amet unde reiciendis accusantium quam, consequuntur esse nam id autem architecto quae! Provident asperiores magnam quae?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quibusdam aperiam enim hic alias amet unde reiciendis accusantium quam, consequuntur esse nam id autem architecto quae! Provident asperiores magnam quae?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quibusdam aperiam enim hic alias amet unde reiciendis accusantium quam, consequuntur esse nam id autem architecto quae! Provident asperiores magnam quae?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quibusdam aperiam enim hic alias amet unde reiciendis accusantium quam, consequuntur esse nam id autem architecto quae! Provident asperiores magnam quae?</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quibusdam aperiam enim hic alias amet unde reiciendis accusantium quam, consequuntur esse nam id autem architecto quae! Provident asperiores magnam quae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quibusdam aperiam enim hic alias amet unde reiciendis accusantium quam, consequuntur esse nam id autem architecto quae! Provident asperiores magnam quae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat quibusdam aperiam enim hic alias amet unde reiciendis accusantium quam, consequuntur esse nam id autem architecto quae! Provident asperiores magnam quae?</p>
 </body>
 </html>
